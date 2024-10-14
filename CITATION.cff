@@ -1,0 +1,48 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the article from preferred-citation and the software itself."
+type: software
+authors:
+- given-names: "Ethan"
+  family-names: "Bradley"
+  affiliation: Queen's University Belfast
+  orcid: "https://orcid.org/0000-0002-3696-4253"
+- given-names: "Muhammad"
+  family-names: "Roman"
+  affiliation: Queen's University Belfast
+  orcid: "https://orcid.org/0000-0002-9035-2426"
+- given-names: "Karen"
+  family-names: "Rafferty"
+  affiliation: Queen's University Belfast
+  orcid: "https://orcid.org/0000-0002-7443-7876"
+- given-names: "Barry"
+  family-names: "Devereux"
+  affiliation: Queen's University Belfast
+  orcid: "https://orcid.org/0000-0003-2128-8632"
+title: "SynFinTabGen"
+version: 1.0.0
+date-released: 2024-12-05
+license: MIT
+repository-code: "https://github.com/ethanbradley/synfintabgen"
+preferred-citation:
+  type: generic
+  authors:
+  - given-names: "Ethan"
+    family-names: "Bradley"
+    affiliation: Queen's University Belfast
+    orcid: "https://orcid.org/0000-0002-3696-4253"
+  - given-names: "Muhammad"
+    family-names: "Roman"
+    affiliation: Queen's University Belfast
+    orcid: "https://orcid.org/0000-0002-9035-2426"
+  - given-names: "Karen"
+    family-names: "Rafferty"
+    affiliation: Queen's University Belfast
+    orcid: "https://orcid.org/0000-0002-7443-7876"
+  - given-names: "Barry"
+    family-names: "Devereux"
+    affiliation: Queen's University Belfast
+    orcid: "https://orcid.org/0000-0003-2128-8632"
+  title: "SynFinTabs: A Dataset of Synthetic Financial Tables for Information and Table Extraction"
+  month: 12
+  year: 2024
+  url: "https://arxiv.org/abs/2412.04262"
