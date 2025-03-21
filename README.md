@@ -33,6 +33,16 @@ config = DatasetGeneratorConfig(
 generator = DatasetGenerator(config)
 ```
 
+## Note
+
+Before the first use of this package, you'll need to make sure you have `nltk` words corpus downloaded. You can do this like so:
+
+```python3
+import nltk
+
+nltk.download('words')
+```
+
 ## Citation
 
 If you use this software, please cite both the article using the citation below and the software itself.
