@@ -14,7 +14,8 @@ class ThemeGenerator():
         ]
 
     def __call__(self, idx: int, params: dict) -> dict:
-        """The call method for ThemeGenerator class.
+        """
+        The call method for ThemeGenerator class.
 
         Parameters:
             idx (int): The index of the theme function to use.

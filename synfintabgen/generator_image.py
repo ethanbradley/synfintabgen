@@ -5,7 +5,8 @@ class ImageGenerator():
     """This is a class for creating images."""
 
     def __init__(self, image_dir: str, driver: webdriver.Chrome) -> None:
-        """The constructor for ImageGenerator class.
+        """
+        The constructor for ImageGenerator class.
 
         Parameters:
             image_dir (str): The image directory.
@@ -17,7 +18,8 @@ class ImageGenerator():
         self._driver = driver
 
     def __call__(self, id: str, document_file_path: str) -> None:
-        """The call method for ImageGenerator class.
+        """
+        The call method for ImageGenerator class.
 
         Parameters:
             id (str): The ID of the image to be created.

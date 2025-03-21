@@ -14,7 +14,8 @@ class AnnotationGenerator():
     def __init__(self,
                  annotations_file_path: str,
                  driver: webdriver.Chrome) -> None:
-        """The constructor for AnnotationGenerator class.
+        """
+        The constructor for AnnotationGenerator class.
 
         Parameters:
             annotations_file_path (str): The annotations file path.
@@ -31,7 +32,8 @@ class AnnotationGenerator():
                  theme_idx: int,
                  table: List[List[dict]],
                  params: dict) -> None:
-        """The call method for AnnotationGenerator class.
+        """
+        The call method for AnnotationGenerator class.
 
         Parameters:
             id (str): The ID of the table being annotated.

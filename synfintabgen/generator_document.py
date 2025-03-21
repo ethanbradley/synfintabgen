@@ -8,7 +8,8 @@ class DocumentGenerator():
     """This is a class for creating documents."""
 
     def __init__(self, html_dir: str) -> None:
-        """The constructor for DocumentGenerator class.
+        """
+        The constructor for DocumentGenerator class.
 
         Parameters:
             html_dir (str): The HTML file directory.
@@ -17,7 +18,8 @@ class DocumentGenerator():
         self._html_dir = html_dir
 
     def __call__(self, id: str, table: List[List[dict]], theme: dict) -> str:
-        """The call method for DocumentGenerator class.
+        """
+        The call method for DocumentGenerator class.
 
         Parameters:
             id (str): The ID of the document to be created.

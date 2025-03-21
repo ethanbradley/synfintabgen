@@ -38,7 +38,8 @@ class TableGenerator():
         self._vocab = self._load_vocab()
 
     def __call__(self, params: dict) -> List[List[dict]]:
-        """The call method for TableGenerator class.
+        """
+        The call method for TableGenerator class.
 
         Parameters:
             params (dict): The table parameters.

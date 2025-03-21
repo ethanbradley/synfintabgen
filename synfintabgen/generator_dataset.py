@@ -15,9 +15,7 @@ from synfintabgen.generator_theme import ThemeGenerator
 
 
 class DatasetGenerator():
-    """This is a class for generating a synthetic table image
-    dataset.
-    """
+    """This class is for generating a synthetic table image dataset."""
 
     if sys.platform == "win32":
         _no_pad_char = "#"
@@ -42,7 +40,8 @@ class DatasetGenerator():
                              "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
 
     def __init__(self, config=DatasetGeneratorConfig()) -> None:
-        """The constructor for DatasetGenerator class.
+        """
+        The constructor for DatasetGenerator class.
 
         Parameters:
             config (DatasetGeneratorConfig): A configuration for the
@@ -67,7 +66,8 @@ class DatasetGenerator():
             self._driver)
 
     def __call__(self, size: int) -> None:
-        """The call method for DatasetGenerator class.
+        """
+        The call method for DatasetGenerator class.
 
         This creates a dataset of synthetic dataset based on the config
         passed to the constructor.

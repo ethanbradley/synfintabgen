@@ -2,7 +2,8 @@ import os
 
 
 class DatasetGeneratorConfig():
-    """This is a class for configuring the Dataset Generator.
+    """
+    This is a class for configuring the Dataset Generator.
 
     Attributes:
         dataset_path (str): Absolute path to where the dataset will be
@@ -19,7 +20,8 @@ class DatasetGeneratorConfig():
             dataset_name=None,
             document_width=None,
             document_height=None) -> None:
-        """The constructor for DatasetGeneratorConfig class.
+        """
+        The constructor for DatasetGeneratorConfig class.
 
         Parameters:
             dataset_path (str): Absolute path to where the dataset will
