@@ -145,8 +145,8 @@ class AnnotationGenerator():
         rect = self._driver.find_element(By.ID, id).rect
         x_0 = rect['x']
         y_0 = rect['y']
-        x_1 = x_0 + rect['width'] - 1
-        y_1 = y_0 + rect['height'] - 1
+        x_1 = x_0 + rect['width']
+        y_1 = y_0 + rect['height']
 
         return [int(x_0), int(y_0), int(x_1), int(y_1)]
 
