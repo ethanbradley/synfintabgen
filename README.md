@@ -48,13 +48,18 @@ nltk.download('words')
 If you use this software, please cite both the article using the citation below and the software itself.
 
 ```bib
-@misc{bradley2024synfintabs,
-      title         = {Syn{F}in{T}abs: A Dataset of Synthetic Financial Tables for Information and Table Extraction},
-      author        = {Bradley, Ethan and Roman, Muhammad and Rafferty, Karen and Devereux, Barry},
-      year          = {2024},
-      eprint        = {2412.04262},
-      archivePrefix = {arXiv},
-      primaryClass  = {cs.LG},
-      url           = {https://arxiv.org/abs/2412.04262}
+@inproceedings{bradley2026synfintabs,
+    title        = {Syn{F}in{T}abs: A Dataset of Synthetic Financial Tables for Information and Table Extraction},
+    author       = {Bradley, Ethan and Roman, Muhammad and Rafferty, Karen and Devereux, Barry},
+    year         = 2026,
+    month        = {January},
+    booktitle    = {Document Analysis and Recognition -- ICDAR 2025 Workshops},
+    publisher    = {Springer Nature Switzerland},
+    address      = {Cham},
+    pages        = {85--100},
+    doi          = {10.1007/978-3-032-09371-4_6},
+    isbn         = {978-3-032-09371-4},
+    editor       = {Jin, Lianwen and Zanibbi, Richard and Eglin, Veronique},
+    abstract     = {Table extraction from document images is a challenging AI problem, and labelled data for many content domains is difficult to come by. Existing table extraction datasets often focus on scientific tables due to the vast amount of academic articles that are readily available, along with their source code. However, there are significant layout and typographical differences between tables found across scientific, financial, and other domains. Current datasets often lack the words, and their positions, contained within the tables, instead relying on unreliable OCR to extract these features for training modern machine learning models on natural language processing tasks. Therefore, there is a need for a more general method of obtaining labelled data. We present SynFinTabs, a large-scale, labelled dataset of synthetic financial tables. Our hope is that our method of generating these synthetic tables is transferable to other domains. To demonstrate the effectiveness of our dataset in training models to extract information from table images, we create FinTabQA, a layout large language model trained on an extractive question-answering task. We test our model using real-world financial tables and compare it to a state-of-the-art generative model and discuss the results. We make the dataset, model, and dataset generation code publicly available (https://ethanbradley.co.uk/research/synfintabs).}
 }
 ```
