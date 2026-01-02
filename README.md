@@ -52,7 +52,7 @@ If you use this software, please cite both the article using the citation below 
     title        = {Syn{F}in{T}abs: A Dataset of Synthetic Financial Tables for Information and Table Extraction},
     author       = {Bradley, Ethan and Roman, Muhammad and Rafferty, Karen and Devereux, Barry},
     year         = 2026,
-    month        = {January},
+    month        = jan,
     booktitle    = {Document Analysis and Recognition -- ICDAR 2025 Workshops},
     publisher    = {Springer Nature Switzerland},
     address      = {Cham},
